@@ -1,0 +1,117 @@
+{
+  "title": "Why (and when) deferring taxes is not your best option",
+  "author": {
+    "name": "Amanda Lott",
+    "title": "Head of Wealth Planning & Innovation, Advice Lab"
+  },
+  "date": "April 4, 2024",
+  "sections": [
+    {
+      "title": "Introduction",
+      "content": "Contrary to the common assumption, deferring taxes is not always a good idea. We caution against what many people routinely do: automatically opt for tax-deferred accounts. They usually do so because they assume their ordinary income tax rate will be lower after they retire. Or they think: “Even if my tax rate won’t be lower, it’s better to put it off for as long as possible.” They can be wrong on both points."
+    },
+    {
+      "title": "Potential Tax Rates in Retirement",
+      "content": "People are often surprised to find they are still subject to top U.S. tax rates when they no longer draw a high salary but have significant assets. Also, and critically: Very few people realize that financial outcomes can be significantly different when you put pre-tax versus after-tax dollars into tax-deferred accounts.",
+      "numbers": [
+        {
+          "type": "tax_rate",
+          "value": 35,
+          "description": "Current top federal tax bracket"
+        },
+        {
+          "type": "tax_rate",
+          "value": 37,
+          "description": "Current top federal tax bracket for annual income of about $731,200 for a couple and $609,350 for an individual"
+        },
+        {
+          "type": "future_tax_rate",
+          "value": 39.6,
+          "description": "Top federal tax rate scheduled to revert to in 2026"
+        }
+      ]
+    },
+    {
+      "title": "Examples of High Income in Retirement",
+      "content": "Say you have a $30 million portfolio that generates an annual yield of just 2%. That would produce $600,000 of income a year before any capital gains you might realize through rebalancing and prudent portfolio management.",
+      "numbers": [
+        {
+          "type": "portfolio_value",
+          "value": 30000000,
+          "description": "Total portfolio value"
+        },
+        {
+          "type": "annual_yield",
+          "value": 2,
+          "description": "Annual yield percentage"
+        },
+        {
+          "type": "income_generated",
+          "value": 600000,
+          "description": "Income generated from the portfolio"
+        },
+        {
+          "type": "social_security",
+          "value": 45000,
+          "description": "Annual Social Security benefit per person"
+        },
+        {
+          "type": "required_minimum_distributions",
+          "value": 250000,
+          "description": "Additional income from required minimum distributions"
+        }
+      ]
+    },
+    {
+      "title": "When to Choose Taxable Accounts",
+      "content": "You may want to pay taxes as you go, keeping after-tax dollars in taxable accounts if: You can get preferential tax treatment on their return—i.e., you can pay the 23.8% tax rate for long-term-capital gains (LTCG) or qualified dividend income (QDI).",
+      "numbers": [
+        {
+          "type": "tax_rate",
+          "value": 23.8,
+          "description": "Preferential tax rate for long-term capital gains or qualified dividend income"
+        }
+      ]
+    },
+    {
+      "title": "Making the Right Choice",
+      "content": "What happens when you put a so-called “tax-efficient investment” into a tax-deferred account? Instead of paying 23.8% along the way, you’d pay nearly double in taxes on the funds—37%—when you finally make withdrawals.",
+      "numbers": [
+        {
+          "type": "tax_rate",
+          "value": 37,
+          "description": "Tax rate on withdrawals from tax-deferred accounts"
+        },
+        {
+          "type": "required_rate_of_return",
+          "value": 11.5,
+          "description": "Annual rate of return needed for a tax-efficient investment to match the value of a taxable account after 20 years"
+        }
+      ]
+    },
+    {
+      "title": "When Tax Deferral Makes Sense",
+      "content": "There are five main reasons to put your after-tax dollars into tax-deferred accounts. Investments are “tax-inefficient” (i.e., their return does not qualify for the 23.8% tax rate as LTCG or QDI).",
+      "numbers": [
+        {
+          "type": "investment_amount",
+          "value": 1000000,
+          "description": "Initial investment amount used in analysis"
+        },
+        {
+          "type": "years",
+          "value": 30,
+          "description": "Number of years analyzed for growth in tax-deferred vs taxable accounts"
+        }
+      ]
+    }
+  ],
+  "disclosures": [
+    "In 2024, the maximum amount of pre-tax dollars you can put into a 401(k) is $23,000 generally with, if you are over 50 years old, another $7,500 allowed (so $30,500).",
+    "If an individual is covered by an employer retirement plan, no deduction is allowed for a contribution to a traditional IRA if Modified Adjusted Gross Income (MAGI) is above modest thresholds $87,000 for single or head of household taxpayer, and $143,000 for those married and filing jointly).",
+    "RMD calculation approximated assuming roughly 4% of the account balance ($80,000 per person in the above example with each having a $2 million IRA account). Based on an individual’s age, the percentage distribution required ranges from ~3.7% at age 73 to ~8.2% at age 90. In 2024, maximum Social Security benefit at full retirement age is $45,864 annually and could be higher if an individual delays until age 70.",
+    "Includes the 3.8% Medicare surtax on net investment income.",
+    "In contrast, tax-deferred accounts always pass on an embedded tax liability in the form of “income in respect of a decedent” (i.e., the untaxed income that a decedent had earned or had a right to receive during their lifetime). IRD is taxed to the individual beneficiary or entity that inherits this income.",
+    "Distributions from a Roth IRA are considered qualified distributions if you are 59½ or older, and the account is at least five years old. Qualified distributions are tax- and penalty-free."
+  ]
+}

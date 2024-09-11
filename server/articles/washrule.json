@@ -1,0 +1,76 @@
+{
+  "wash_sale_rule": {
+    "overview": {
+      "description": "The wash sale rule prevents taxpayers from claiming a loss on the sale of stock or securities if they acquire the same or substantially identical stock or securities within a 61-day period.",
+      "benefits": "Tax-loss harvesting can offset capital gains, but it must be done correctly to avoid disallowed losses."
+    },
+    "rule_details": {
+      "prohibited_actions": [
+        "Acquire the same or substantially identical stock or securities",
+        "Enter a contract to acquire stock or securities (e.g., call options)",
+        "Short sales"
+      ],
+      "consequences": [
+        "Disallowed loss from the sale of the original shares",
+        "Amount of disallowed loss is added to the basis of the newly acquired shares",
+        "Holding period of original shares is added to newly acquired shares"
+      ]
+    },
+    "example": {
+      "transaction": {
+        "sell_date": "June 1, 2024",
+        "sell_price": 100,
+        "purchase_price": 110,
+        "shares": 100,
+        "loss": 1000,
+        "repurchase_date": "June 10, 2024",
+        "repurchase_price": 105
+      },
+      "results": {
+        "disallowed_loss": 1000,
+        "new_cost_basis": 115,
+        "holding_period": "long-term"
+      }
+    },
+    "application": {
+      "scope": [
+        "Transactions in stock or securities",
+        "Debt securities",
+        "Contracts to acquire stocks or securities",
+        "Warrants",
+        "Convertible preferred stock",
+        "Options contracts"
+      ],
+      "exclusions": [
+        "Commodities",
+        "Currencies",
+        "Digital assets (e.g., cryptocurrency)"
+      ],
+      "special_cases": [
+        "Transactions involving different financial instruments",
+        "Trading activity in other accounts",
+        "Vesting and exercise of compensatory options",
+        "Automatic dividend reinvestments"
+      ]
+    },
+    "types_of_transactions": {
+      "triggers": [
+        "Selling a position in one account and buying it back in another",
+        "Selling a position in a taxable account and buying it back in an IRA",
+        "Selling at a loss and buying it back in a spouse's account",
+        "Selling at a loss and buying it back in a disregarded entity or grantor trust",
+        "Selling at a loss and a partnership or corporation buying it back",
+        "Acquiring a call option or writing a deep-in-the-money put option on the same position",
+        "Automatic dividend reinvestments"
+      ],
+      "non_triggers": [
+        "Doubling up on a position",
+        "Waiting 30 days to sell the original position"
+      ]
+    },
+    "consultation": {
+      "note": "Always consult your tax advisor before engaging in transactions that might be considered a wash sale.",
+      "services": "J.P. Morgan can assist in assessing tax-loss harvesting opportunities but does not provide legal or tax advice."
+    }
+  }
+}
